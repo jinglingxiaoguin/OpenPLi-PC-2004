@@ -14,7 +14,7 @@ if [ -d $SOURCE ]; then
 	rm -fr $SOURCE
 fi
 
-git clone https://github.com/oscam-emu/oscam-patched.git
+git clone https://github.com/badproject/oscam-patched.git
 cd $SOURCE
 ./config.sh -E WITH_SSL MODULE_CONSTCW
 make
